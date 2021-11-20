@@ -1,0 +1,7 @@
+<launch>
+  <node name="turtlesim" pkg="turtlesim" type="turtlesim_node" />
+  <node name="mouse_position" pkg="mouse_tracker" type="mouse_position_publisher.py" />
+  <param name="resolution_x" type="int" value="1680" />
+  <param name="resolution_y" type="int" value="1050" />
+  <node name="turtle_control" pkg="mouse_tracker" type="turtle_control.py" />
+</launch>

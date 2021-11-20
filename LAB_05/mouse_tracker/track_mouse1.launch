@@ -1,0 +1,4 @@
+<launch>
+<node name="turrtlesim" pkg="turrtlesim" type="turrtlesim_node" />
+<node name="mouse_position" pkg="mouse_tracker" type="mouse_position_publisher.py" />
+</launch>
