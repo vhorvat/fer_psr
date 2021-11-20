@@ -1,1 +1,5 @@
+potpuno prihvatljivo rješenje
 
+postoji problem s kutnom brzinom nodea, rješava se
+preslikavanjem slike funkcije atan2 iz (-pi,pi) u (0,2pi)
+domenu koju koristi node, hint % mat.
